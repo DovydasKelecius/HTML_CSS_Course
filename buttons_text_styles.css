@@ -1,0 +1,108 @@
+button
+{
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.subscribe_button
+{
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  margin-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  transition: opacity 150ms;
+}
+
+.subscribe_button:hover
+{
+  opacity: 0.7;
+}
+
+.subscribe_button:active
+{
+  opacity: 0.4;
+}
+
+
+.join_button
+{
+  color: #065fd4;
+  background-color: white;
+  border-color: #065fd4;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-right: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all 150ms;
+}
+
+.join_button:hover
+{
+  color: white;
+  background-color: #065fd4;
+}
+
+.join_button:active
+{
+  opacity: 0.7;
+}
+
+
+.twitter_button
+{
+  color: white;
+  background-color: #1d9bf0;
+  border: none;
+  border-radius: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: box-shadow 150ms;
+}
+
+.twitter_button:hover
+{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.uber_button
+{
+  color: white;
+  background-color: black;
+  border: none;
+  height:36px;
+  width: 110px;
+}
+
+.amazon_button
+{
+  color: black;
+  background-color: rgb(255, 213, 27);
+  border: none;
+  border-radius: 20px;
+  height: 36px;
+  width: 160px;
+}
+
+.github_button
+{
+  color: white;
+  background-color: rgb(84, 162, 87);
+  border: none;
+  border-radius: 4px;
+  height: 36px;
+  width: 75px;
+}
