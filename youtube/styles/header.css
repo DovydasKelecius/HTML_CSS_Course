@@ -46,11 +46,13 @@
       height: 24px;
       margin-left: 24px;
       margin-right: 24px;
+      cursor: pointer;
     }
 
     .youtube-logo
     {
       height: 20px;
+      cursor: pointer;
     }
 
     .search-bar
@@ -85,6 +87,47 @@
       margin-right: 10px;
     }
 
+    .search-button,
+    .voice-search-button,
+    .upload-icon-container,
+    .youtube-apps-container,
+    .notifications-icon-container
+    {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+      .search-button .tooltip,
+      .voice-search-button .tooltip,
+      .upload-icon-container .tooltip,
+      .youtube-apps-container .tooltip,
+      .notifications-icon-container .tooltip
+      {
+        position: absolute;
+        background-color: gray;
+        opacity: 0;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+        font-size: 12px;
+        bottom: -30px;
+        transition: opacity 100ms;
+        pointer-events: none;
+        white-space: nowrap;
+      }
+
+      .search-button:hover .tooltip,
+      .voice-search-button:hover .tooltip,
+      .upload-icon-container:hover .tooltip,
+      .youtube-apps-container:hover .tooltip,
+      .notifications-icon-container:hover .tooltip
+      {
+        opacity: 1;
+      }
+
     .voice-search-button
     {
       height: 40px;
@@ -97,13 +140,11 @@
     .search-icon
     {
       height: 25px;
-      margin-top: 4px;
     }
 
     .voice-search-icon
     {
       height: 24px;
-      margin-top: 4px;
     }
 
 
@@ -147,4 +188,5 @@
       border: none;
       border-radius: 16px;
       height: 32px;
+      cursor: pointer;
     }
